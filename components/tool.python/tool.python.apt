@@ -2,8 +2,8 @@
 ## cvm : C++ Version Manager https://github.com/Offirmo/cvm
 
 ## This file describes the installation of component :
-##    abcd           <url of homepage of this component>
-##    apt version    <url of page listing corresponding apt packets>
+##    python         http://www.python.org/
+##    apt version    ?
 
 
 ## requirements :
@@ -12,5 +12,4 @@
 
 ## installation instructions :
 install_mode   apt
-apt-packet     <list packets here>
-apt-additional-packets   build-essential
+apt-packet     python

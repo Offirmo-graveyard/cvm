@@ -80,11 +80,6 @@ CVM_COMMANDS_create_component()
 	mkdir -p "$comp_dir"
 	
 	## now copy example files
-	stub_file="$comp_dir/$comp_id.stub"
-	if ! [[ -f "$stub_file" ]]; then
-		cp "$CVM_EXAMPLES_DIR/component/type.name.stub" "$stub_file"
-	fi
-
 	apt_file="$comp_dir/$comp_id.apt"
 	if ! [[ -f "$apt_file" ]]; then
 		cp "$CVM_EXAMPLES_DIR/component/type.name.apt" "$apt_file"

@@ -54,6 +54,12 @@ CURRENT_COMPSET=$(CVM_COMPSET_get_current_active_compset)
 ## prepare env
 CVM_COMPSET_update_environment_vars_with_current_compset
 
+## tests (debug)
+echo $LD_LIBRARY_PATH
+echo $CMAKE_LIBRARY_PATH
+echo $CMAKE_INCLUDE_PATH
+echo $INCLUDE_PATH
+
 ## starts execution
 
 CVM_debug "starting execution of command : \"$CMD\"..."

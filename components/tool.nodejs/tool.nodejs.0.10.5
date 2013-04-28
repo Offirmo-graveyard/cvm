@@ -1,0 +1,22 @@
+## This file is a cvm component definition
+## cvm : C++ Version Manager https://github.com/Offirmo/cvm
+
+## This file describes the installation of component :
+##    node.js            http://nodejs.org/
+##    version 0.10.5     http://blog.nodejs.org/2013/04/23/node-v0-10-5-stable/
+
+
+## requirements (for both installation and nominal execution) :
+## cf. readme.md
+require   tool.python, version : 2.6+
+require   tool.make, version : 3.81+
+
+
+-- example with autotools :
+## installation instructions :
+install_mode                    build
+build_mode                      autotools
+src_obtention_mode              archive
+
+archive_obtention_mode          download
+archive_download_url            http://nodejs.org/dist/v0.10.5/node-v0.10.5.tar.gz

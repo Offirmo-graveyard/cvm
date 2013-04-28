@@ -12,7 +12,7 @@
 ## requirements (for both installation and nominal execution) :
 ## cf. <url of doc listing requirements>
 require   tool.abcd
-require   lib.efgh
+require   lib.efgh, version : x.y.z+
 
 
 -- example with autotools :

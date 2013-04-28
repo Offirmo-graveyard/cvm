@@ -2,8 +2,8 @@
 ## cvm : C++ Version Manager https://github.com/Offirmo/cvm
 
 ## This file describes the installation of component :
-##    abcd           <url of homepage of this component>
-##    apt version    <url of page listing corresponding apt packets>
+##    node.js        http://nodejs.org/
+##    apt version    https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
 
 ## requirements :
@@ -11,6 +11,6 @@
 
 
 ## installation instructions :
-install_mode   apt
-apt-packet     <list packets here>
-apt-additional-packets   build-essential
+install_mode         apt
+apt-ppa-repository   ppa:chris-lea/node.js
+apt-packet           nodejs
