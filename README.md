@@ -1,6 +1,11 @@
 C/C++ Version Manager
 =====================
 
+[![Project status](http://img.shields.io/badge/project_status-highly_experimental-red.png)](http://offirmo.net/classifying-open-source-projects-status/)
+[![license](http://img.shields.io/badge/license-public_domain-brightgreen.png)](http://unlicense.org/)
+
+**CVM was an experiment and is no longer into active development. You can browse code and pick any ideas you want, or give a try other attempts : [biicode](http://www.biicode.com/), [cpm](https://github.com/iauns/cpm), [pacm](http://sourcey.com/pacm/), [insert _google "C++ package manager"_ here]...**
+
 C/C++ Version Manager. A tool for automatically managing your C/C++ dependencies :
 - compiler
 - libraries
